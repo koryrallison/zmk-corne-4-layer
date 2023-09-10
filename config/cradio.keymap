@@ -53,7 +53,7 @@
             &kp LSHIFT  &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH   &kp RSHIFT           
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤──────────┤   ├──────────├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 | CTRL     |  ALT     |  SPACE   |   |  ENTER   | SHIFT    | BACKSPACE|
-                                             &kp LCTRL   &lt LALT   &kp SPACE      &kp RET   &kp RSHIFT  &lt BSPC
+                                             &kp LCTRL   &lt NUM LALT   &kp SPACE  &kp RET   &kp RSHIFT  &lt SYM BSPC
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
