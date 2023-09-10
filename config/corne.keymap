@@ -16,7 +16,7 @@
 #define SYM 2
 #define FUN 3
 
-   {
+  / {
     behaviors {
         ht: hold_tap {
             label = "hold_tap";
