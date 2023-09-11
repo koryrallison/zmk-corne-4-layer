@@ -37,7 +37,7 @@
             tap-ms = <40>;
             #binding-cells = <0>;
             bindings
-            = <&kp K &kp O &kp R &kp Y &kp R &kp A &kp L &kp L& kp I &kp S &kp O &kp N>
+            = <&kp K &kp O &kp R &kp Y &kp R &kp A &kp L &kp L &kp I &kp S &kp O &kp N>
               ,<&kp AT>
               ,<&kp G &kp M &kp A &kp I &kp L>
               ,<&kp DOT>
