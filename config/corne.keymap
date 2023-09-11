@@ -37,7 +37,11 @@
             tap-ms = <40>;
             #binding-cells = <0>;
             bindings
-            = <&kp K &kp O &kp R &kp Y &kp R &kp A &kp L &kp L& kp I &kp S &kp O &kp N &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            = <&kp K &kp O &kp R &kp Y &kp R &kp A &kp L &kp L& kp I &kp S &kp O &kp N>
+              ,<&kp AT>
+              ,<&kp G &kp M &kp A &kp I &kp L>
+              ,<&kp DOT>
+              ,<&kp C &kp O &kp M>;
         };
         PARM: PARM {
             compaitble = "zmk,behavior-macro";
@@ -45,7 +49,8 @@
             tap-ms = <40>;
             #binding-cells = <0>;
             bindings
-            = <&kp LPAR &kp RPAR &kp LEFT>;
+            = <&kp LPAR &kp RPAR>
+              ,<&kp LEFT>;
         };
     };
     behaviors {
